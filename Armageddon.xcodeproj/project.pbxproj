@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		A25078A0280E4EC000B5BEE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A250789F280E4EC000B5BEE0 /* AppDelegate.swift */; };
-		A25078A4280E4EC000B5BEE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25078A3280E4EC000B5BEE0 /* ViewController.swift */; };
+		A25078A4280E4EC000B5BEE0 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25078A3280E4EC000B5BEE0 /* FilterViewController.swift */; };
 		A25078A9280E4EC300B5BEE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25078A8280E4EC300B5BEE0 /* Assets.xcassets */; };
 		A25078AC280E4EC300B5BEE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25078AA280E4EC300B5BEE0 /* LaunchScreen.storyboard */; };
 		A25078B6280E4F7600B5BEE0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A25078B5280E4F7600B5BEE0 /* SnapKit */; };
+		A25078B9280E523100B5BEE0 /* ArmageddonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25078B8280E523100B5BEE0 /* ArmageddonResponse.swift */; };
+		A25078BC280E525100B5BEE0 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25078BB280E525100B5BEE0 /* Networking.swift */; };
+		A25078BE280E59B700B5BEE0 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25078BD280E59B700B5BEE0 /* MainViewModel.swift */; };
+		A25078C1280E5AD400B5BEE0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25078C0280E5AD400B5BEE0 /* MainViewController.swift */; };
+		A25078C3280E5ADF00B5BEE0 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25078C2280E5ADF00B5BEE0 /* MainRouter.swift */; };
+		A25078CC280E5E3C00B5BEE0 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25078CB280E5E3C00B5BEE0 /* MainCell.swift */; };
+		A25078CE280E5FA700B5BEE0 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25078CD280E5FA700B5BEE0 /* ModuleBuilder.swift */; };
+		A25CB7B92812977300BFC71C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25CB7B82812977300BFC71C /* UIColor+Extension.swift */; };
+		A2B77B9F2813C14100FA3539 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B77B9E2813C14100FA3539 /* Storage.swift */; };
+		A2F35FBE280FC0A900BD9D11 /* MainContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F35FBD280FC0A900BD9D11 /* MainContainerViewController.swift */; };
+		A2F35FC1280FC21E00BD9D11 /* DeleteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F35FC0280FC21E00BD9D11 /* DeleteRouter.swift */; };
+		A2F35FC3280FC22F00BD9D11 /* DeleteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F35FC2280FC22F00BD9D11 /* DeleteViewModel.swift */; };
+		A2F35FC5280FC23D00BD9D11 /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F35FC4280FC23D00BD9D11 /* DeleteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A250789C280E4EC000B5BEE0 /* Armageddon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Armageddon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A250789F280E4EC000B5BEE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A25078A3280E4EC000B5BEE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A25078A3280E4EC000B5BEE0 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		A25078A8280E4EC300B5BEE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A25078AB280E4EC300B5BEE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A25078AD280E4EC300B5BEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A25078B3280E4ED500B5BEE0 /* Armageddon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Armageddon.entitlements; sourceTree = "<group>"; };
+		A25078B8280E523100B5BEE0 /* ArmageddonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmageddonResponse.swift; sourceTree = "<group>"; };
+		A25078BB280E525100B5BEE0 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		A25078BD280E59B700B5BEE0 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		A25078C0280E5AD400B5BEE0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A25078C2280E5ADF00B5BEE0 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		A25078CB280E5E3C00B5BEE0 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		A25078CD280E5FA700B5BEE0 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		A25CB7B82812977300BFC71C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A2B77B9E2813C14100FA3539 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		A2F35FBD280FC0A900BD9D11 /* MainContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContainerViewController.swift; sourceTree = "<group>"; };
+		A2F35FC0280FC21E00BD9D11 /* DeleteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteRouter.swift; sourceTree = "<group>"; };
+		A2F35FC2280FC22F00BD9D11 /* DeleteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewModel.swift; sourceTree = "<group>"; };
+		A2F35FC4280FC23D00BD9D11 /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,14 +81,91 @@
 		A250789E280E4EC000B5BEE0 /* Armageddon */ = {
 			isa = PBXGroup;
 			children = (
+				A2B77B9D2813C12F00FA3539 /* Storage */,
+				A25CB7B72812975C00BFC71C /* Extensions */,
+				A2F35FBC280FC04F00BD9D11 /* MainContainer */,
+				A25078BF280E5AB700B5BEE0 /* MainModule */,
+				A2F35FBF280FC1F900BD9D11 /* DeleteModule */,
+				A2B77B9C2813B39400FA3539 /* FilterModule */,
+				A25078BA280E524400B5BEE0 /* Networking */,
+				A25078B7280E522500B5BEE0 /* Model */,
 				A25078B3280E4ED500B5BEE0 /* Armageddon.entitlements */,
 				A250789F280E4EC000B5BEE0 /* AppDelegate.swift */,
-				A25078A3280E4EC000B5BEE0 /* ViewController.swift */,
 				A25078A8280E4EC300B5BEE0 /* Assets.xcassets */,
 				A25078AA280E4EC300B5BEE0 /* LaunchScreen.storyboard */,
 				A25078AD280E4EC300B5BEE0 /* Info.plist */,
+				A25078CD280E5FA700B5BEE0 /* ModuleBuilder.swift */,
 			);
 			path = Armageddon;
+			sourceTree = "<group>";
+		};
+		A25078B7280E522500B5BEE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A25078B8280E523100B5BEE0 /* ArmageddonResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A25078BA280E524400B5BEE0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A25078BB280E525100B5BEE0 /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A25078BF280E5AB700B5BEE0 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				A25078C2280E5ADF00B5BEE0 /* MainRouter.swift */,
+				A25078BD280E59B700B5BEE0 /* MainViewModel.swift */,
+				A25078C0280E5AD400B5BEE0 /* MainViewController.swift */,
+				A25078CB280E5E3C00B5BEE0 /* MainCell.swift */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		A25CB7B72812975C00BFC71C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A25CB7B82812977300BFC71C /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A2B77B9C2813B39400FA3539 /* FilterModule */ = {
+			isa = PBXGroup;
+			children = (
+				A25078A3280E4EC000B5BEE0 /* FilterViewController.swift */,
+			);
+			path = FilterModule;
+			sourceTree = "<group>";
+		};
+		A2B77B9D2813C12F00FA3539 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				A2B77B9E2813C14100FA3539 /* Storage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		A2F35FBC280FC04F00BD9D11 /* MainContainer */ = {
+			isa = PBXGroup;
+			children = (
+				A2F35FBD280FC0A900BD9D11 /* MainContainerViewController.swift */,
+			);
+			path = MainContainer;
+			sourceTree = "<group>";
+		};
+		A2F35FBF280FC1F900BD9D11 /* DeleteModule */ = {
+			isa = PBXGroup;
+			children = (
+				A2F35FC0280FC21E00BD9D11 /* DeleteRouter.swift */,
+				A2F35FC2280FC22F00BD9D11 /* DeleteViewModel.swift */,
+				A2F35FC4280FC23D00BD9D11 /* DeleteViewController.swift */,
+			);
+			path = DeleteModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +244,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A25078A4280E4EC000B5BEE0 /* ViewController.swift in Sources */,
+				A25078BE280E59B700B5BEE0 /* MainViewModel.swift in Sources */,
+				A25078C3280E5ADF00B5BEE0 /* MainRouter.swift in Sources */,
+				A25078A4280E4EC000B5BEE0 /* FilterViewController.swift in Sources */,
+				A2F35FC1280FC21E00BD9D11 /* DeleteRouter.swift in Sources */,
+				A25078B9280E523100B5BEE0 /* ArmageddonResponse.swift in Sources */,
+				A2F35FC5280FC23D00BD9D11 /* DeleteViewController.swift in Sources */,
+				A25078C1280E5AD400B5BEE0 /* MainViewController.swift in Sources */,
+				A25CB7B92812977300BFC71C /* UIColor+Extension.swift in Sources */,
+				A2F35FBE280FC0A900BD9D11 /* MainContainerViewController.swift in Sources */,
+				A2F35FC3280FC22F00BD9D11 /* DeleteViewModel.swift in Sources */,
+				A25078CE280E5FA700B5BEE0 /* ModuleBuilder.swift in Sources */,
 				A25078A0280E4EC000B5BEE0 /* AppDelegate.swift in Sources */,
+				A25078CC280E5E3C00B5BEE0 /* MainCell.swift in Sources */,
+				A25078BC280E525100B5BEE0 /* Networking.swift in Sources */,
+				A2B77B9F2813C14100FA3539 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +407,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +415,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.mikhildanilov.Armageddon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,7 +437,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,10 +445,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.mikhildanilov.Armageddon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
